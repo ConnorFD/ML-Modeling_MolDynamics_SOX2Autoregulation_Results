@@ -1,5 +1,5 @@
 # ML-Modeling_MolDynamics_SOX2Autoregulation_Results
-mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS free energy trajectories, GROMACS hydrogen bond analysis, GROMACS MD input files, force field packages, and PDBs of selected GROMACS trajectory frames analyzed in "Machine-learning based modeling and molecular dynamics reveal SOX2 autoregulation through competitive mRNA binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors upon request.
+mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS free energy trajectories, GROMACS hydrogen bond analysis, GROMACS MD input files, force field packages, HADDOCK summary files, and PDBs of selected GROMACS trajectory frames analyzed in "Machine-learning based modeling and molecular dynamics reveal SOX2 autoregulation through competitive mRNA binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors upon request.
 
 The AlphaFold3_Models folder contains twenty mmCIF files of AlphaFold3 models, as five AlphaFold3 models were created for each of the four protein–RNA interactions analyzed in this manuscript: the SOX2–ES2 interaction, the SOX2–S100A14 interaction, the SOX2–SOX2 mRNA interaction, and the HuR–SOX2 mRNA interaction.
 
@@ -14,5 +14,7 @@ The GROMACS_MD_Input_Files folder encompasses twelve sub-folders, each containin
 Within the GROMACS_RMSD_Trajectories folder, there are twelve files that correspond to each of the twelve sub-folders in the GROMACS_MD_Input_Files folder, as the RMSD tables were derived from the GROMACS MD simulations performed on each interaction.
 
 The GROMACS_RMSF_Trajectories folder also corresponds almost exactly to each of the twelve sub-folders in the GROMACS_MD_Input_Files folder. Its only difference from the GROMACS_RMSD_Trajectories folder is that it contains twenty four files, since RMSF tables were calculated both for protein residues and for RNA residues.
+
+The HADDOCK_Summary_Files folder contains the results from HADDOCK docking assessments performed on all five SOX2–SOX2 mRNA and five HuR–SOX2 mRNA complexes. This encompasses the downloaded HADDOCK summary outputs reporting van der Waals energies, electrostatic energies, desolvation energies, binding energies, restraint violations, and buried surface areas for the top-ranked models from each docking cluster, as well as individual PDB structure files.
 
 There is only one file in the Selected_Frame_PDBs folder: a PDB file of the frame at 0.97 ns from the first SOX2–S100A14 MD simulation, which was specifically analyzed in the paper.
