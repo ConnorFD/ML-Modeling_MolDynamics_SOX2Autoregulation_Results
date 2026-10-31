@@ -1,5 +1,5 @@
-grep -v HOH 'SOX2 Interaction with ES2 -- Test 3.pdb'
-gmx pdb2gmx -f 'SOX2 Interaction with ES2 -- Test 3.pdb' -o SOX2_E3_processed.gro -water tip3p -ignh
+grep -v HOH 'SOX2 Interaction with ES2 -- Test 3.pdb' -o SOX2_E3_clean.pdb
+gmx pdb2gmx -f SOX2_E3_clean.pdb -o SOX2_E3_processed.gro -water tip3p -ignh
 ##select force field OL15 nucleic (Zgarbova et al., J. Chem. Theory Comput. 11, 5723-36, 2015)
 gmx editconf -f SOX2_E3_processed.gro -o SOX2_E3_newbox.gro -c -d 1.2 -bt dodecahedron
 gmx solvate -cp SOX2_E3_newbox.gro -cs spc216.gro -o solv.gro -p topol.top
