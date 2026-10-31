@@ -1,5 +1,5 @@
-grep -v HOH 'HuR_SOX2_MODIFIED_NEW_4.pdb'
-gmx pdb2gmx -f 'HuR_SOX2_MODIFIED_NEW_4.pdb' -o processed.gro -water tip3p -ignh
+grep -v HOH 'HuR_SOX2_MODIFIED_NEW_4.pdb' -o clean.pdb
+gmx pdb2gmx -f clean.pdb -o processed.gro -water tip3p -ignh
 ##select force field OL15 nucleic (Zgarbova et al., J. Chem. Theory Comput. 11, 5723-36, 2015
 gmx editconf -f processed.gro -o newbox.gro -c -d 1.2 -bt dodecahedron
 gmx solvate -cp newbox.gro -cs spc216.gro -o solv.gro -p topol.top
