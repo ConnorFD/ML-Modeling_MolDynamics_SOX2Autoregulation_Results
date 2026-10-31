@@ -1,0 +1,36 @@
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	1 HuR_SOX2_300K_Modified_Replicate_2.pdb
+
+28 H-bonds
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+/A TYR 5 OH     /B U 2458 O2    no hydrogen  2.321  N/A
+/A ARG 14 NH1   /B U 2458 O4    no hydrogen  2.102  N/A
+/A TYR 26 OH    /B U 2455 OP2   no hydrogen  1.445  N/A
+/A LYS 55 NZ    /B U 2461 OP2   no hydrogen  2.926  N/A
+/A LYS 92 NZ    /B U 2456 O4    no hydrogen  3.484  N/A
+/A SER 99 OG    /B U 2457 O2'   no hydrogen  2.861  N/A
+/A SER 100 N    /B U 2457 O2'   no hydrogen  3.372  N/A
+/A LYS 104 NZ   /B U 2458 OP1   no hydrogen  3.200  N/A
+/A ASN 188 ND2  /B A 2459 N6    no hydrogen  3.416  N/A
+/A ARG 205 NH2  /B G 2502 O4'   no hydrogen  2.440  N/A
+/A GLN 214 NE2  /B G 2310 OP1   no hydrogen  3.276  N/A
+/A GLN 214 NE2  /B A 2432 O2'   no hydrogen  2.873  N/A
+/A SER 241 OG   /B A 2496 OP2   no hydrogen  1.805  N/A
+/A SER 241 OG   /B A 2497 OP1   no hydrogen  3.113  N/A
+/A SER 242 OG   /B A 2496 OP1   no hydrogen  2.272  N/A
+/A GLY 243 N    /B A 2496 OP1   no hydrogen  3.425  N/A
+/A CYS 245 N    /B G 2495 N3    no hydrogen  3.308  N/A
+/A CYS 245 SG   /B G 2495 OP1   no hydrogen  3.606  N/A
+/A LYS 313 NZ   /B U 2490 O4'   no hydrogen  3.177  N/A
+/A THR 321 OG1  /B U 2493 O4    no hydrogen  3.561  N/A
+/A LYS 323 NZ   /B G 2495 O3'   no hydrogen  3.347  N/A
+/B A 2396 O2'   /A GLN 216 OE1  no hydrogen  2.581  N/A
+/B G 2453 N2    /A LEU 108 O    no hydrogen  3.133  N/A
+/B U 2457 O2'   /A SER 99 OG    no hydrogen  2.861  N/A
+/B C 2460 O2'   /A GLU 6 OE1    no hydrogen  3.414  N/A
+/B C 2460 O2'   /A GLU 6 OE2    no hydrogen  2.802  N/A
+/B G 2478 O2'   /A LYS 55 O     no hydrogen  2.777  N/A
+/B G 2495 O2'   /A GLY 243 O    no hydrogen  2.099  N/A
