@@ -1,4 +1,4 @@
-grep -v HOH 'SOX2_SOX2_mRNA_300K_Modified.pdb' -o clean.pdb
+grep -v HOH 'SOX2_SOX2_mRNA_300K_Modified.pdb' > clean.pdb
 gmx pdb2gmx -f clean.pdb -o processed.gro -water tip3p -ignh
 ##select force field OL15 nucleic (Zgarbova et al., J. Chem. Theory Comput. 11, 5723-36, 2015
 gmx editconf -f processed.gro -o newbox.gro -c -d 1.2 -bt dodecahedron
